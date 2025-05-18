@@ -1,7 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "build": "next build",
+    "install": "pnpm install --frozen-lockfile",
+    "build": "pnpm run build:next",
+    "build:next": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
   },

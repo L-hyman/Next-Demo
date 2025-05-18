@@ -3,7 +3,7 @@
   "scripts": {
     "install": "pnpm install --frozen-lockfile",
     "build": "pnpm run build:next",
-    "build:next": "next build"
+    "build:next": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
